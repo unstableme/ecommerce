@@ -1,0 +1,40 @@
+/* welcome part */
+h1 {
+    color: rgb(24, 25, 26);
+    padding-left: 15rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 0rem;
+    margin-top: -0.8rem;
+    background-color: lightblue;
+
+}
+
+p {
+    position: left;
+
+}
+
+.logo img {
+    margin-top: -2rem;
+    padding-top: 2rem;
+}
+
+.logo input[type=text],
+.logo button[type=submit] {
+    margin-top: -10rem;
+    border: none;
+}
+
+.logo input[type=text] {
+    margin-right: 0rem;
+}
+
+.logo button[type=submit] {
+    margin-left: 0 rem;
+
+}
+
+.sell {
+    float: right;
+}

@@ -102,7 +102,28 @@ text-decoration: none;
     background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
     width: 300px;
     padding-left: 38px;
+    box-shadow: black;
 }
+.ppup input[type=text], .ppup input[type=password]{
+    width: 90%;
+    border: 1px solid#aaa;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+.ppup button[type=submit]
+{
+    margin-left: 15px;
+    width: 80%;
+    padding-left: 60px;
+    background-color: rgb(14, 115, 122);
+    color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+
+.ppup a :hover{ color: white;}
 
 
 .navbar{
@@ -116,10 +137,7 @@ text-decoration: none;
  width: 70px;
 }
 
-.flt a{
 
-    float: left 30%;
-}
  
 .mySlides{
     width: 100%;

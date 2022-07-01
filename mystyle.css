@@ -89,20 +89,36 @@ text-decoration: none;
 color:red;
 text-decoration: none;
 }
-#rent:hover{
+.rent:hover{
     color:blue;
 }
+.flt:hover{color: white;}
 
 
 .ppup{
     position: absolute;
+    margin-top: 100px;
     top: 90%;
     left: 50%;
     transform: translate(-80%, -1%);
     background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
     width: 300px;
     padding-left: 38px;
+    visibility: hidden;
     box-shadow: black;
+    
+}
+.open-pup{
+    visibility: visible;
+    
+}
+.close{
+    cursor: pointer;
+    float: right;
+    font-size: 32px;
+    margin-top: -40px;
+    margin-right: 8px;
+
 }
 .ppup input[type=text], .ppup input[type=password]{
     width: 90%;
@@ -122,8 +138,10 @@ text-decoration: none;
     cursor: pointer;
 }
 
-
-.ppup a :hover{ color: white;}
+.ppup a{
+    color: black;
+}
+ #pup a:hover{ color: white;}
 
 
 .navbar{
@@ -192,8 +210,8 @@ text-decoration: none;
     font-size: 15px;
     cursor: pointer;
     padding: 6px 12px;
-    border-radius: 30px;
-    background-color: white;
+    border-radius: 25px;
+    background-color: rgb(230, 144, 17);
     color: black;
     display: flex;
 }

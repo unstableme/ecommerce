@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(102, 116, 134);
+}
+#container img{
+    display: block;
+  
+  width: 300px;
+  height:330px;
+
+}
+#btn1{
+    border-radius: 20px;
+    color:rgb(27, 16, 16);
+    margin-left: 48%;
+  margin-right: 50%;
+}
+#btn :hover{
+    cursor: pointer;
+    color: rgb(216, 29, 123);
+}
